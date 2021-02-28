@@ -42,9 +42,6 @@ def plot_model_history(model_history):
     fig.savefig('plot.png')
     plt.show()
 
-# Define data generators
-train_dir = 'data/train'
-val_dir = 'data/test'
 
 num_train = 8459
 num_val = 3460
